@@ -1,0 +1,147 @@
+:root{
+
+    --color1: #052cee;
+    --color2: #030841;
+    --color3: rgb(47, 105, 192);
+}
+
+header{
+
+    text-align:center;
+   
+    color: white;
+    font-size: small;
+    background: radial-gradient(var(--color1),var(--color2));  
+    font-style: italic;
+    
+}
+nav{
+margin-top: 10px;
+display:flex;
+
+}
+
+li {
+
+    list-style-type:none;
+    padding: 1rem;
+    float:left;
+   
+    
+
+    
+}
+button {
+
+padding: 1rem;
+background: white;
+border: 1px solid rgb(159, 154, 154);
+border-radius: 0.5rem;
+box-shadow: 2px 2px rgb(195, 194, 194);
+
+transition:box-shadow 1s ease, background 1s ease, margin 0.5s ease, padding 1s ease;
+
+
+}
+a{
+
+    text-decoration: none;
+    color:var(--color1);
+    transition: color 1s ease;
+   
+}
+
+button:hover{
+    box-shadow: -2px 5px rgb(181, 176, 176);
+    background: var(--color1);
+    color:white;
+    
+    margin-top: none;
+    padding:20px;
+
+    color: white;
+    transition: box-shadow 1s ease, background 1s ease, margin 0.5s ease, padding 1s ease;
+
+    a{
+
+        color:white;
+        transition: color 1s ease, padding 1s ease;
+  
+    }
+
+
+}
+footer{
+
+    
+    background:radial-gradient(var(--color1),var(--color2)) ;
+    color:aliceblue;
+    position: fixed;
+    text-align: center;
+    left:0;
+    bottom: 0;
+    right:0;
+}
+
+
+
+p {
+
+   color: var(--color1);
+}
+.pricing > aside > div{
+
+    color: var(--color1);
+    font-size: larger;
+    display:block;
+    margin-left: 10px;
+}
+.pricing >div:nth-child(1){
+
+
+    float:left;
+}
+
+h2{
+
+    color:var(--color3);
+}
+form {
+
+    padding: 1rem;
+    width: 80%;  
+ 
+    color:var(--color2);
+}
+
+input,
+textarea {
+    display: block;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+form button {
+    
+    background:radial-gradient(var(--color2),var(--color2));
+    border: none;
+    color: #fff;
+    border-radius: 5px solid;
+    width: 5rem;
+    margin-left: auto;
+    box-shadow: none;
+    transition: background 1s ease;
+    
+}
+form button:hover
+{
+
+    transition: background 2s ease, color 1s ease;
+    padding: 1rem;
+    background:radial-gradient(var(--color1),var(--color3));
+    border: none;
+    color: #e7e5e5;
+    width: 5rem;
+    margin-left: auto;
+    box-shadow: none;
+}
